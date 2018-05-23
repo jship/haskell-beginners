@@ -1,0 +1,27 @@
+name: y2018-m05-d23
+version: '0.0.0'
+github: "jship/haskell-beginners"
+license: MIT
+author: "Jason Shipman"
+maintainer: "Jason Shipman"
+synopsis: Supplemental code for haskell-beginners talk about lists on 2018-05-23
+description: Supplemental code for haskell-beginners talks about lists on 2018-05-23
+category: Other
+
+extra-source-files:
+- LICENSE.md
+- package.yaml
+- README.md
+- stack.yaml
+
+ghc-options:
+- -Wall
+- -Werror
+- -fwarn-tabs
+- -Wincomplete-uni-patterns
+- -O0
+
+library:
+  dependencies:
+  - base
+  source-dirs: library
